@@ -1,6 +1,6 @@
 <?php
 
-namespace Ctbuh\BelongsToDependency;
+namespace ctbuh\BelongsToDependency;
 
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
