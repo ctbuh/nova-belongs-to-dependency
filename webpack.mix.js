@@ -5,7 +5,7 @@ require("./nova.mix");
 mix.setPublicPath("dist")
     .js("resources/js/field.js", "js")
     .vue({ version: 3 })
-    .nova("webparking/nova-belongs-to-dependency");
+    .nova("ctbuh/nova-belongs-to-dependency");
 
 mix.alias({
     "laravel-nova": path.join(
