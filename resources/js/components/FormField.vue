@@ -81,17 +81,15 @@ export default {
     },
 
     computed: {
-        queryParams() {
-            return {
-                params: {
-                    current: this.selectedResourceId,
-                    first: this.initializingWithExistingResource,
-                    search: this.search,
-                    withTrashed: this.withTrashed,
-                    dependsOnValue: this.dependsOnValue,
-                },
-            };
-        },
+        return {
+            params: {
+                current: this.selectedResourceId,
+                first: this.initializingWithExistingResource,
+                search: this.search,
+                withTrashed: this.withTrashed,
+                dependsOnValue: this.dependsOnValue,
+            },
+        };
     },
 }
 </script>
