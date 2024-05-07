@@ -1,6 +1,6 @@
 <?php
 
-namespace ctbuh\BelongsToDependency;
+namespace Ctbuh\BelongsToDependency;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
