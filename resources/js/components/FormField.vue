@@ -82,13 +82,11 @@ export default {
 
     computed: {
         return {
-            params: {
-                current: this.selectedResourceId,
-                first: this.initializingWithExistingResource,
-                search: this.search,
-                withTrashed: this.withTrashed,
-                dependsOnValue: this.dependsOnValue,
-            },
+            current: this.selectedResourceId,
+            first: this.initializingWithExistingResource,
+            search: this.search,
+            withTrashed: this.withTrashed,
+            dependsOnValue: this.dependsOnValue,
         };
     },
 }
